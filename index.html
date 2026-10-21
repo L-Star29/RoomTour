@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#ede9e1">
+    <meta name="description"
+        content="A personal exploration of home through the things I brought, the routines I built, and the comforts I found at college.">
+    <title>Home, in the making — Lokesh</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header><a href="#desk" class="wordmark" aria-label="Home, in the making"><span>Home, in the making<span
+                    class="submark">Lokesh · Memory Box</span></span></a>
+        <div class="header-right"><span class="location">BLACKSBURG, VA · FALL 2026</span><button class="text-button"
+                id="about">About this project</button></div>
+    </header>
+    <main id="experience">
+
+        <section class="narrative" aria-label="Chapter introduction">
+            <div class="eyebrow"><span id="chapter-kicker">01 / THE DESK</span></div>
+            <div id="intro">
+                <h1 id="chapter-title">In the<br><em>little things.</em></h1>
+                <p id="chapter-copy"></p>
+                <button class="primary" id="discover">Explore the objects</button>
+            </div>
+            <article id="story" hidden aria-live="polite"><button id="close-story" class="back">← Back to the
+                    desk</button>
+                <h2 id="story-title"></h2>
+                <p id="story-body"></p>
+                <div class="story-bottom"><span id="story-count"></span><button id="next-story" class="text-button">Next
+                        object</button></div>
+            </article>
+        </section>
+        <section id="stage" aria-label="Interactive furniture model">
+            <div id="viewer" role="img"
+                aria-label="3D desk. Drag to rotate, scroll to zoom, or choose a named story below."></div>
+            <div id="pins" aria-label="Object stories"></div>
+            <div id="loading" role="status"><span class="loading-ring"></span><span id="load-message">Unpacking the
+                    desk…</span></div>
+            <div id="stage-tools"><button id="reset" title="Reset camera view"
+                    aria-label="Reset camera view">↺</button><button id="zoom-in" aria-label="Zoom in">+</button><button
+                    id="zoom-out" aria-label="Zoom out">−</button><button id="toggle-pins"
+                    title="Show or hide story markers" aria-pressed="true"
+                    aria-label="Show or hide story markers">⊕</button></div>
+            <button id="drawer" class="drawer-button" aria-expanded="false">Open drawer</button>
+            <p class="gesture">Drag to rotate · Scroll to zoom</p>
+        </section>
+
+    </main>
+    <footer><button class="index-toggle" id="index-toggle" aria-expanded="false"><span class="index-icon">☷</span>
+            Object index </button>
+        <nav aria-label="Explore the furniture"><button data-scene="desk" class="active"> Desk</button><button
+                data-scene="wardrobe"> Wardrobe</button><button data-scene="bed"> Bed</button></nav>
+        <button id="reflection" class="text-button">Reflection</button>
+    </footer>
+    <section id="object-index" hidden aria-label="All object stories">
+        <div class="index-heading"><span class="eyebrow">Objects</span><button id="close-index"
+                aria-label="Close object index">×</button></div>
+        <div id="index-list"></div>
+    </section>
+    <dialog id="note"><button id="close-note" aria-label="Close note">×</button>
+        <div class="eyebrow" id="note-kicker"></div>
+        <h2 id="note-title"></h2>
+        <div id="note-body"></div>
+    </dialog>
+    <noscript>This experience uses JavaScript for 3D exploration. Enable JavaScript to explore the furniture and read
+        the object stories.</noscript>
+    <script src="./experience.js"></script>
+</body>
+
+</html>
