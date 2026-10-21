@@ -11,7 +11,7 @@ export const chapters = {
         "name": "My phone",
         "label": "My blue iPhone",
         "object": "IPhone 17 Pro Max",
-        "body": "I wasn’t planning to upgrade my phone. My family switched phone plans, and we all ended up getting new phones, so now I have a blue iPhone 17 Pro. I’m a Lewis Hamilton fan, which explains the poster on the screen."
+        "body": "I wasn’t planning to upgrade my phone. My family switched phone plans, and we all ended up getting new phones, so now I have a blue iPhone 17 Pro. I’m a Lewis Hamilton fan, which explains the wallpaper on the screen."
       },
       {
         "id": "sharpener",
@@ -41,7 +41,7 @@ export const chapters = {
         "name": "My monitor",
         "label": "Monitor & hackathon stickers",
         "object": "-FREE-LG Moniter",
-        "body": "I bought this 27-inch LG monitor for the dorm. It’s been useful for getting work done, and I’ve found it easier on my eyes than I expected.\n\nThe three stickers are from my first in-person hackathon. The Lewis Hamilton poster is there because I’m a fan."
+        "body": "I bought this 27-inch LG monitor for the dorm. It’s been useful for getting work done, and I’ve found it easier on my eyes than I expected.\n\nThe three stickers are from my first in-person hackathon. The Lewis Hamilton wallpaper is there because I’m a fan."
       },
       {
         "id": "keyboard",
@@ -155,7 +155,7 @@ export const chapters = {
     "number": "03",
     "name": "The bed",
     "title": "Getting<br><em>comfortable.</em>",
-    "copy": "The bed came with the room. I brought the bedding and changed a few things after moving in, including getting a different pillow and a fan my roommate suggested.",
+    "copy": "I got my bedding from Costco, then made a few changes after moving in. I liked my roommate’s pillow and bought the same one. My roommate also suggested getting a fan, which I hadn’t thought of before.",
     "color": "#e4e8e6",
     "stories": [
       {
